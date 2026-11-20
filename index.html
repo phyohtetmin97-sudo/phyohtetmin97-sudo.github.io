@@ -106,4 +106,44 @@ h1 {
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Base style for both squares */
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-bottom: 20px;
+  }
+
+  /* Square 1: Transitions width to become longer */
+  #square1 {
+    transition: width 2s;
+  }
+
+  #square1:hover {
+    width: 400px;
+  }
+
+  /* Square 2: Transitions both width and height to become larger */
+  #square2 {
+    transition: width 2s, height 2s;
+  }
+
+  #square2:hover {
+    width: 150px;
+    height: 150px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Exercise 13</h1>
+  <div id="square1" class="square">1</div>
+  <div id="square2" class="square">2</div>
+
+</body>
+</html>
 
